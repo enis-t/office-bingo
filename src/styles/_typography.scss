@@ -1,0 +1,21 @@
+@use './utils' as *;
+
+@font-face {
+  font-weight: $regular;
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-weight: $bold;
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf');
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}

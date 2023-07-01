@@ -1,0 +1,68 @@
+@use './utils' as *;
+@forward './reset';
+@forward './typography';
+@forward './buttons';
+@forward './bingoCard';
+@forward './overlay';
+@forward './transitions';
+@forward './root';
+
+// Above desktop breakpoint we want the font size to be "static" based on width.
+// 0.1rem = 1px
+// Below  desktop breakpoint we want the font size to be based on the viewport width.
+// At 1024 we switch to mobile layout so some adjustments in responsive sizing are necessary.
+html {
+  font-size: calc(100 / 102.4) * 1vw;  // 1rem * 100 / breakpoint
+  
+  @include desktop {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  position: relative;
+
+  background-color: get-color('background');
+  text-rendering: optimizelegibility;
+
+  a {
+    font-weight: $bold;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: $animation-short ease-in-out;
+
+    &:hover {
+      color: get-color('background');
+
+      background-color: get-color('primary');
+    }
+  }
+}
+
+* {
+  color: get-color('color');
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+
+  main {
+    position: relative;
+
+    width: 100vw;
+    overflow: hidden;
+
+    color: get-color(color);
+
+    border: .5rem solid get-color(primary);
+    border-radius: $border-radius-big;
+    box-shadow: 0 -.6rem 0 get-color(primary), .3rem 0 1rem get-color(primary), -.3rem 0  1rem get-color(primary);
+    aspect-ratio: 1 / 1;
+    @include desktop {
+      width: 60vw;
+
+      transform: rotateZ(-$rotation);
+    }
+  }
+
+}

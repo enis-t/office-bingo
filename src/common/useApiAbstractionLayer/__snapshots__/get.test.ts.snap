@@ -1,0 +1,273 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`get function unit tests > returns the correct values when called with the id 1`] = `
+[
+  {
+    "frequency": 0,
+    "id": "0",
+    "phrase": "Thank you for your email.",
+  },
+  {
+    "frequency": 0.01,
+    "id": "1",
+    "phrase": "I'm following up on our previous conversation.",
+  },
+  {
+    "frequency": 0.02,
+    "id": "2",
+    "phrase": "Please find attached the requested document.",
+  },
+  {
+    "frequency": 0.03,
+    "id": "3",
+    "phrase": "Could you clarify your question?",
+  },
+  {
+    "frequency": 0.04,
+    "id": "4",
+    "phrase": "I apologize for the delay in my response.",
+  },
+  {
+    "frequency": 0.05,
+    "id": "5",
+    "phrase": "I appreciate your prompt reply.",
+  },
+  {
+    "frequency": 0.06,
+    "id": "6",
+    "phrase": "Let's schedule a meeting to discuss further.",
+  },
+  {
+    "frequency": 0.07,
+    "id": "7",
+    "phrase": "Please let me know if you need any further assistance.",
+  },
+  {
+    "frequency": 0.08,
+    "id": "8",
+    "phrase": "I'll look into it and get back to you shortly.",
+  },
+  {
+    "frequency": 0.09,
+    "id": "9",
+    "phrase": "I'm copying [name] for their input on this matter.",
+  },
+  {
+    "frequency": 0.1,
+    "id": "10",
+    "phrase": "Can we arrange a phone call to discuss in detail?",
+  },
+  {
+    "frequency": 0.11,
+    "id": "11",
+    "phrase": "Your feedback is greatly appreciated.",
+  },
+  {
+    "frequency": 0.12,
+    "id": "12",
+    "phrase": "I'm out of the office until [date], and [colleague] will assist you.",
+  },
+  {
+    "frequency": 0.13,
+    "id": "13",
+    "phrase": "I'm cc'ing [name] for their information.",
+  },
+  {
+    "frequency": 0.14,
+    "id": "14",
+    "phrase": "I'll take care of it and provide an update soon.",
+  },
+  {
+    "frequency": 0.15,
+    "id": "15",
+    "phrase": "I understand your concern and will address it promptly.",
+  },
+  {
+    "frequency": 0.16,
+    "id": "16",
+    "phrase": "Please see below for the requested information.",
+  },
+  {
+    "frequency": 0.17,
+    "id": "17",
+    "phrase": "I apologize for any confusion caused.",
+  },
+  {
+    "frequency": 0.18,
+    "id": "18",
+    "phrase": "Could you please provide more context?",
+  },
+  {
+    "frequency": 0.19,
+    "id": "19",
+    "phrase": "Let's proceed with the proposed plan.",
+  },
+  {
+    "frequency": 0.2,
+    "id": "20",
+    "phrase": "I'm available for a meeting on [date/time]. Does that work for you?",
+  },
+  {
+    "frequency": 0.21,
+    "id": "21",
+    "phrase": "Please let me know if there's a preferred time for the call.",
+  },
+  {
+    "frequency": 0.22,
+    "id": "22",
+    "phrase": "I appreciate your understanding in this matter.",
+  },
+  {
+    "frequency": 0.23,
+    "id": "23",
+    "phrase": "I'll share the meeting agenda prior to the scheduled call.",
+  },
+  {
+    "frequency": 0.24,
+    "id": "24",
+    "phrase": "I'll forward your request to the appropriate team.",
+  },
+  {
+    "frequency": 0.25,
+    "id": "25",
+    "phrase": "I'll review the document and share my feedback soon.",
+  },
+  {
+    "frequency": 0.26,
+    "id": "26",
+    "phrase": "Could you please confirm receipt of this email?",
+  },
+  {
+    "frequency": 0.27,
+    "id": "27",
+    "phrase": "I suggest we set up a conference call to resolve this.",
+  },
+  {
+    "frequency": 0.28,
+    "id": "28",
+    "phrase": "I'll make the necessary arrangements and get back to you.",
+  },
+  {
+    "frequency": 0.29,
+    "id": "29",
+    "phrase": "I'll consult with my team and provide an update.",
+  },
+  {
+    "frequency": 0.3,
+    "id": "30",
+    "phrase": "I recommend we involve [name] for their expertise.",
+  },
+  {
+    "frequency": 0.31,
+    "id": "31",
+    "phrase": "I'll coordinate with [department/team] to address this issue.",
+  },
+  {
+    "frequency": 0.32,
+    "id": "32",
+    "phrase": "Let's schedule a follow-up meeting to track progress.",
+  },
+  {
+    "frequency": 0.33,
+    "id": "33",
+    "phrase": "I'm sorry, but I need more time to gather the information.",
+  },
+  {
+    "frequency": 0.34,
+    "id": "34",
+    "phrase": "I'll send a calendar invitation for our upcoming meeting.",
+  },
+  {
+    "frequency": 0.35,
+    "id": "35",
+    "phrase": "I'll keep you updated on any developments.",
+  },
+  {
+    "frequency": 0.36,
+    "id": "36",
+    "phrase": "I understand your point of view and will take it into consideration.",
+  },
+  {
+    "frequency": 0.37,
+    "id": "37",
+    "phrase": "Could you please double-check the attached file?",
+  },
+  {
+    "frequency": 0.38,
+    "id": "38",
+    "phrase": "I'll reach out to our IT department to resolve the technical issue.",
+  },
+  {
+    "frequency": 0.39,
+    "id": "39",
+    "phrase": "I suggest we proceed as planned to avoid any further delays.",
+  },
+  {
+    "frequency": 0.4,
+    "id": "40",
+    "phrase": "Thank you for bringing this to my attention.",
+  },
+  {
+    "frequency": 0.41,
+    "id": "41",
+    "phrase": "I'll share the updated version of the report shortly.",
+  },
+  {
+    "frequency": 0.42,
+    "id": "42",
+    "phrase": "I'll contact our vendor for additional information.",
+  },
+  {
+    "frequency": 0.43,
+    "id": "43",
+    "phrase": "Let's schedule a training session to address this topic.",
+  },
+  {
+    "frequency": 0.44,
+    "id": "44",
+    "phrase": "I'll ensure that the necessary steps are taken to resolve the issue.",
+  },
+  {
+    "frequency": 0.45,
+    "id": "45",
+    "phrase": "I'll forward your request to the appropriate department for action.",
+  },
+  {
+    "frequency": 0.46,
+    "id": "46",
+    "phrase": "I'm happy to assist with any further questions you may have.",
+  },
+  {
+    "frequency": 0.47,
+    "id": "47",
+    "phrase": "I'll compile the data and present it in our upcoming meeting.",
+  },
+  {
+    "frequency": 0.48,
+    "id": "48",
+    "phrase": "I appreciate your patience while we work on this matter.",
+  },
+  {
+    "frequency": 0.49,
+    "id": "49",
+    "phrase": "I'll confirm the details and get back to you soon.",
+  },
+]
+`;
+
+exports[`get function unit tests > returns the correct values when called without the id 1`] = `
+[
+  {
+    "name": "email",
+    "title": "Email",
+  },
+  {
+    "name": "projectManagement",
+    "title": "Project Management",
+  },
+  {
+    "name": "customerService",
+    "title": "Customer Service",
+  },
+]
+`;

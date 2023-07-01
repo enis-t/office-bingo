@@ -1,0 +1,252 @@
+[
+  {
+    "frequency": 0.50,
+    "id": "50",
+    "phrase": "Thank you for contacting [Company Name]. How may I assist you?"
+  },
+  {
+    "frequency": 0.51,
+    "id": "51",
+    "phrase": "I apologize for any inconvenience caused."
+  },
+  {
+    "frequency": 0.52,
+    "id": "52",
+    "phrase": "Let me check the status of your order/account."
+  },
+  {
+    "frequency": 0.53,
+    "id": "53",
+    "phrase": "I'll do my best to resolve this issue for you."
+  },
+  {
+    "frequency": 0.54,
+    "id": "54",
+    "phrase": "Please provide me with your account details."
+  },
+  {
+    "frequency": 0.55,
+    "id": "55",
+    "phrase": "I understand your frustration and will help you find a solution."
+  },
+  {
+    "frequency": 0.56,
+    "id": "56",
+    "phrase": "Could you please provide more information about the issue?"
+  },
+  {
+    "frequency": 0.57,
+    "id": "57",
+    "phrase": "I'll escalate this matter to our technical support team."
+  },
+  {
+    "frequency": 0.58,
+    "id": "58",
+    "phrase": "Let's troubleshoot the problem step by step."
+  },
+  {
+    "frequency": 0.59,
+    "id": "59",
+    "phrase": "I appreciate your patience while I investigate this further."
+  },
+  {
+    "frequency": 0.60,
+    "id": "60",
+    "phrase": "I'll check if there are any known issues with our system."
+  },
+  {
+    "frequency": 0.61,
+    "id": "61",
+    "phrase": "Please hold on for a moment while I access your records."
+  },
+  {
+    "frequency": 0.62,
+    "id": "62",
+    "phrase": "I'm sorry for the misunderstanding. Let me clarify."
+  },
+  {
+    "frequency": 0.63,
+    "id": "63",
+    "phrase": "I'll make sure to pass along your feedback to the relevant department."
+  },
+  {
+    "frequency": 0.64,
+    "id": "64",
+    "phrase": "I'll provide you with regular updates on the progress."
+  },
+  {
+    "frequency": 0.65,
+    "id": "65",
+    "phrase": "Let me offer you a few options to resolve the issue."
+  },
+  {
+    "frequency": 0.66,
+    "id": "66",
+    "phrase": "I'll forward your request to our billing department."
+  },
+  {
+    "frequency": 0.67,
+    "id": "67",
+    "phrase": "Please let me know if there's anything else I can assist you with."
+  },
+  {
+    "frequency": 0.68,
+    "id": "68",
+    "phrase": "I'll double-check the details and get back to you shortly."
+  },
+  {
+    "frequency": 0.69,
+    "id": "69",
+    "phrase": "I apologize for the delay. Let me expedite the process for you."
+  },
+  {
+    "frequency": 0.70,
+    "id": "70",
+    "phrase": "I'll review your account history to better understand the situation."
+  },
+  {
+    "frequency": 0.71,
+    "id": "71",
+    "phrase": "Let's find a suitable solution that meets your needs."
+  },
+  {
+    "frequency": 0.72,
+    "id": "72",
+    "phrase": "I appreciate your feedback and will take it into consideration."
+  },
+  {
+    "frequency": 0.73,
+    "id": "73",
+    "phrase": "I'll make sure to address this matter with our team."
+  },
+  {
+    "frequency": 0.74,
+    "id": "74",
+    "phrase": "Please accept our sincerest apologies for any inconvenience caused."
+  },
+  {
+    "frequency": 0.75,
+    "id": "75",
+    "phrase": "I'll provide you with step-by-step instructions to resolve the issue."
+  },
+  {
+    "frequency": 0.76,
+    "id": "76",
+    "phrase": "Let's schedule a callback at your convenience to further assist you."
+  },
+  {
+    "frequency": 0.77,
+    "id": "77",
+    "phrase": "I'll investigate the issue with our shipping carrier."
+  },
+  {
+    "frequency": 0.78,
+    "id": "78",
+    "phrase": "I understand the urgency and will prioritize your request."
+  },
+  {
+    "frequency": 0.79,
+    "id": "79",
+    "phrase": "Please allow me a moment to review our company's policy."
+  },
+  {
+    "frequency": 0.80,
+    "id": "80",
+    "phrase": "I'll check if we have a similar product/service available."
+  },
+  {
+    "frequency": 0.81,
+    "id": "81",
+    "phrase": "I apologize for the confusion. Let's clarify the terms for you."
+  },
+  {
+    "frequency": 0.82,
+    "id": "82",
+    "phrase": "I'll initiate a refund/credit on your account."
+  },
+  {
+    "frequency": 0.83,
+    "id": "83",
+    "phrase": "Please rest assured that we will do everything possible to resolve this."
+  },
+  {
+    "frequency": 0.84,
+    "id": "84",
+    "phrase": "I'll ensure that your concerns are shared with our management team."
+  },
+  {
+    "frequency": 0.85,
+    "id": "85",
+    "phrase": "Let me provide you with the necessary documentation/information."
+  },
+  {
+    "frequency": 0.86,
+    "id": "86",
+    "phrase": "I apologize for the oversight. Let me rectify it for you."
+  },
+  {
+    "frequency": 0.87,
+    "id": "87",
+    "phrase": "I'll verify your warranty details and assist accordingly."
+  },
+  {
+    "frequency": 0.88,
+    "id": "88",
+    "phrase": "Let's troubleshoot together to identify the root cause of the issue."
+  },
+  {
+    "frequency": 0.89,
+    "id": "89",
+    "phrase": "I'll pass along your compliments to the team member involved."
+  },
+  {
+    "frequency": 0.90,
+    "id": "90",
+    "phrase": "Please provide me with your contact information for further assistance."
+  },
+  {
+    "frequency": 0.91,
+    "id": "91",
+    "phrase": "I apologize for the wait. We'll assist you as soon as possible."
+  },
+  {
+    "frequency": 0.92,
+    "id": "92",
+    "phrase": "Let me transfer you to the appropriate department for further support."
+  },
+  {
+    "frequency": 0.93,
+    "id": "93",
+    "phrase": "I appreciate your understanding as we work towards a resolution."
+  },
+  {
+    "frequency": 0.94,
+    "id": "94",
+    "phrase": "I'll make sure to document your feedback for improvement."
+  },
+  {
+    "frequency": 0.95,
+    "id": "95",
+    "phrase": "Let me explain our return/exchange process to you."
+  },
+  {
+    "frequency": 0.96,
+    "id": "96",
+    "phrase": "I'll verify if the requested item is in stock for you."
+  },
+  {
+    "frequency": 0.97,
+    "id": "97",
+    "phrase": "Please keep me updated on any changes or developments."
+  },
+  {
+    "frequency": 0.98,
+    "id": "98",
+    "phrase": "I'll take ownership of this issue and ensure it's resolved promptly."
+  },
+  {
+    "frequency": 0.99,
+    "id": "99",
+    "phrase": "Thank you for bringing this to our attention. We'll investigate further."
+  }
+]

@@ -1,0 +1,20 @@
+@use '../../styles/utils' as *;
+
+.select {
+  position: relative;
+  top: 50%;
+
+  width: 100%;
+
+  text-align: center;
+
+  @include desktop {
+    transform: rotateZ($rotation) translateY(-50%);
+  }
+
+
+  h2 {
+    flex-grow: 1;
+    width: 100%;
+  }
+}

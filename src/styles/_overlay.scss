@@ -1,0 +1,115 @@
+@use './utils' as *;
+
+.overlay {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  text-align: center;
+
+  background: linear-gradient(180deg, rgba(14, 14, 16, 30%) 0%, rgba(14, 14, 16, 40%) 100%);
+  opacity: 0;
+  backdrop-filter: blur(.01em);
+
+  transition: $animation-long ease-in-out;
+
+  pointer-events: none;
+
+  h1 {
+    z-index: 2;
+
+    font-weight: $bold;
+    font-size: 12rem;
+    letter-spacing: 2rem;
+    
+    transform: translate(0) rotateZ(-2400deg) scale(0);
+  }
+  
+  &.bingo {
+    opacity: 1;
+    
+    pointer-events: all;
+
+    h1 {
+      position: relative;
+
+      animation: you-won 10s $animation-long ease-in-out infinite alternate;
+    }
+    
+    button {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+}
+
+@keyframes you-won {
+
+  0% {
+    transform: translate(0) rotateZ(-2400deg) scale(20, 1);
+    opacity: 0;
+  }
+
+  1% {
+    transform: translate(0) rotateZ(-2400deg) scale(20, 1);
+    opacity: 0;
+  }
+  
+  20% {
+    transform: translate(0) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+  
+  30% {
+    transform: translate(5%, 10%) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+
+  40% {
+    transform: translate(10%, 5%) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translate(10%, 10%) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+
+  60% {
+    transform: translate(10%, 5%) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translate(5%, 5%) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+
+  
+  80% {
+    transform: translate(0) rotateZ(0)  scale(1);
+    opacity: 1;
+  }
+  
+  90% {
+    transform: translate(0) rotateZ(-2400deg) scale(0);
+    opacity: 0;
+  }
+  
+  91% {
+    transform: translate(0) rotateZ(-2400deg) scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0) rotateZ(-2400deg) scale(0);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,39 @@
+$mobile-breakpoint: 1024px;
+
+$colors: (
+  'color': #fcfcfc,
+  'background': #003b4c,
+  'primary': #4db3d1,
+  'primary-lighter': #64d8f8,
+  'secondary': #b52849,
+  'secondary-lighter': #e2325b,
+  'tertiary': #b52849,
+  'tertiary-lighter': #e2325b,
+  'success': #73d06f,
+  'warning': #fbdb32,
+  'alert': #ed3c3f,
+  'disabled': #96969b,
+  'link-hover': #4db3d1,
+);
+
+$rotation: 5deg;
+
+// borders
+$border-radius-smaller: 0.4rem;
+$border-radius-small: 0.8rem;
+$border-radius: 1.2rem;
+$border-radius-big: 1.6rem;
+
+// shadows
+$box-shadow: 0 1rem 1.2rem get-color(tertiary);
+$box-shadow-mobile: 0 1rem 1.2rem 0.2rem get-color(tertiary);
+
+// animation timing and fill
+$animation-long: 0.5s;
+$animation-short: 0.2s;
+$animation-overshoot: cubic-bezier(0, 1.03, 0.5, 2.28);
+$animation-overshoot-out: cubic-bezier(0.46, -1.71, 1, 1.02);
+
+// fonts
+$bold: 700;
+$regular: 300;

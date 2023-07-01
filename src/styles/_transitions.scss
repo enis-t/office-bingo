@@ -1,0 +1,16 @@
+@use './utils' as *;
+
+.fade {
+
+  &-enter, &-exit-done {
+    opacity: 0;
+
+    transition: $animation-short ease-in;
+  }
+
+  &-enter-done, &-exit {
+    opacity: 1;
+
+    transition: $animation-long ease-out;
+  }
+}

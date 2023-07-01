@@ -1,0 +1,458 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit tests for deal > return the correct values 1`] = `
+[
+  {
+    "frequency": 0.49,
+    "id": "149",
+    "phrase": "I'll archive project files and documentation upon completion.",
+  },
+  {
+    "frequency": 0.48,
+    "id": "148",
+    "phrase": "We need to manage stakeholder expectations throughout the project.",
+  },
+  {
+    "frequency": 0.33,
+    "id": "133",
+    "phrase": "I'll monitor project progress against the baseline plan.",
+  },
+  {
+    "frequency": 0.32,
+    "id": "132",
+    "phrase": "Let's ensure the project adheres to the established budget.",
+  },
+  {
+    "frequency": 0.31,
+    "id": "131",
+    "phrase": "I'll create a project communication plan for stakeholders.",
+  },
+  {
+    "frequency": 0.3,
+    "id": "130",
+    "phrase": "Are there any milestones that need special attention?",
+  },
+  {
+    "frequency": 0.29,
+    "id": "129",
+    "phrase": "We should document and address any project issues.",
+  },
+  {
+    "frequency": 0.28,
+    "id": "128",
+    "phrase": "I'll provide training sessions for team members, if needed.",
+  },
+  {
+    "frequency": 0.27,
+    "id": "127",
+    "phrase": "Let's conduct a post-implementation review for lessons learned.",
+  },
+  {
+    "frequency": 0.17,
+    "id": "117",
+    "phrase": "I'll facilitate a lessons learned session at project completion.",
+  },
+  {
+    "frequency": 0.16,
+    "id": "116",
+    "phrase": "Are there any potential bottlenecks we should address?",
+  },
+  {
+    "frequency": 0.15,
+    "id": "115",
+    "phrase": "I'll create a project dashboard to visualize progress.",
+  },
+  {
+    "frequency": -1,
+    "id": "empty",
+    "phrase": "",
+  },
+  {
+    "frequency": 0.14,
+    "id": "114",
+    "phrase": "We may need to adjust the project schedule due to unforeseen circumstances.",
+  },
+  {
+    "frequency": 0.13,
+    "id": "113",
+    "phrase": "Let's identify key stakeholders and their expectations.",
+  },
+  {
+    "frequency": 0.12,
+    "id": "112",
+    "phrase": "I'll prepare a budget and resource allocation plan.",
+  },
+  {
+    "frequency": 0.11,
+    "id": "111",
+    "phrase": "Do we have the necessary resources for the project?",
+  },
+  {
+    "frequency": 0.1,
+    "id": "110",
+    "phrase": "Please provide an update on your task's progress.",
+  },
+  {
+    "frequency": 0.09,
+    "id": "109",
+    "phrase": "We need to establish clear communication channels.",
+  },
+  {
+    "frequency": 0.08,
+    "id": "108",
+    "phrase": "I'll send out meeting agendas and minutes for each session.",
+  },
+  {
+    "frequency": 0.07,
+    "id": "107",
+    "phrase": "Let's schedule regular status meetings to track progress.",
+  },
+  {
+    "frequency": 0.06,
+    "id": "106",
+    "phrase": "Are there any dependencies we should be aware of?",
+  },
+  {
+    "frequency": 0.05,
+    "id": "105",
+    "phrase": "We should conduct a risk assessment for potential issues.",
+  },
+  {
+    "frequency": 0.04,
+    "id": "104",
+    "phrase": "I'll create a project plan outlining the tasks and milestones.",
+  },
+  {
+    "frequency": 0.03,
+    "id": "103",
+    "phrase": "Let's assign roles and responsibilities to team members.",
+  },
+]
+`;
+
+exports[`unit tests for deal > return the correct values 2`] = `
+[
+  {
+    "frequency": 0.99,
+    "id": "99",
+    "phrase": "Thank you for bringing this to our attention. We'll investigate further.",
+  },
+  {
+    "frequency": 0.98,
+    "id": "98",
+    "phrase": "I'll take ownership of this issue and ensure it's resolved promptly.",
+  },
+  {
+    "frequency": 0.83,
+    "id": "83",
+    "phrase": "Please rest assured that we will do everything possible to resolve this.",
+  },
+  {
+    "frequency": 0.82,
+    "id": "82",
+    "phrase": "I'll initiate a refund/credit on your account.",
+  },
+  {
+    "frequency": 0.81,
+    "id": "81",
+    "phrase": "I apologize for the confusion. Let's clarify the terms for you.",
+  },
+  {
+    "frequency": 0.8,
+    "id": "80",
+    "phrase": "I'll check if we have a similar product/service available.",
+  },
+  {
+    "frequency": 0.79,
+    "id": "79",
+    "phrase": "Please allow me a moment to review our company's policy.",
+  },
+  {
+    "frequency": 0.78,
+    "id": "78",
+    "phrase": "I understand the urgency and will prioritize your request.",
+  },
+  {
+    "frequency": 0.77,
+    "id": "77",
+    "phrase": "I'll investigate the issue with our shipping carrier.",
+  },
+  {
+    "frequency": 0.67,
+    "id": "67",
+    "phrase": "Please let me know if there's anything else I can assist you with.",
+  },
+  {
+    "frequency": 0.66,
+    "id": "66",
+    "phrase": "I'll forward your request to our billing department.",
+  },
+  {
+    "frequency": 0.65,
+    "id": "65",
+    "phrase": "Let me offer you a few options to resolve the issue.",
+  },
+  {
+    "frequency": -1,
+    "id": "empty",
+    "phrase": "",
+  },
+  {
+    "frequency": 0.64,
+    "id": "64",
+    "phrase": "I'll provide you with regular updates on the progress.",
+  },
+  {
+    "frequency": 0.63,
+    "id": "63",
+    "phrase": "I'll make sure to pass along your feedback to the relevant department.",
+  },
+  {
+    "frequency": 0.62,
+    "id": "62",
+    "phrase": "I'm sorry for the misunderstanding. Let me clarify.",
+  },
+  {
+    "frequency": 0.61,
+    "id": "61",
+    "phrase": "Please hold on for a moment while I access your records.",
+  },
+  {
+    "frequency": 0.6,
+    "id": "60",
+    "phrase": "I'll check if there are any known issues with our system.",
+  },
+  {
+    "frequency": 0.59,
+    "id": "59",
+    "phrase": "I appreciate your patience while I investigate this further.",
+  },
+  {
+    "frequency": 0.58,
+    "id": "58",
+    "phrase": "Let's troubleshoot the problem step by step.",
+  },
+  {
+    "frequency": 0.57,
+    "id": "57",
+    "phrase": "I'll escalate this matter to our technical support team.",
+  },
+  {
+    "frequency": 0.56,
+    "id": "56",
+    "phrase": "Could you please provide more information about the issue?",
+  },
+  {
+    "frequency": 0.55,
+    "id": "55",
+    "phrase": "I understand your frustration and will help you find a solution.",
+  },
+  {
+    "frequency": 0.54,
+    "id": "54",
+    "phrase": "Please provide me with your account details.",
+  },
+  {
+    "frequency": 0.53,
+    "id": "53",
+    "phrase": "I'll do my best to resolve this issue for you.",
+  },
+]
+`;
+
+exports[`unit tests for deal > return the correct values 3`] = `
+[
+  {
+    "frequency": 0.49,
+    "id": "49",
+    "phrase": "I'll confirm the details and get back to you soon.",
+  },
+  {
+    "frequency": 0.48,
+    "id": "48",
+    "phrase": "I appreciate your patience while we work on this matter.",
+  },
+  {
+    "frequency": 0.33,
+    "id": "33",
+    "phrase": "I'm sorry, but I need more time to gather the information.",
+  },
+  {
+    "frequency": 0.32,
+    "id": "32",
+    "phrase": "Let's schedule a follow-up meeting to track progress.",
+  },
+  {
+    "frequency": 0.31,
+    "id": "31",
+    "phrase": "I'll coordinate with [department/team] to address this issue.",
+  },
+  {
+    "frequency": 0.3,
+    "id": "30",
+    "phrase": "I recommend we involve [name] for their expertise.",
+  },
+  {
+    "frequency": 0.29,
+    "id": "29",
+    "phrase": "I'll consult with my team and provide an update.",
+  },
+  {
+    "frequency": 0.28,
+    "id": "28",
+    "phrase": "I'll make the necessary arrangements and get back to you.",
+  },
+  {
+    "frequency": 0.27,
+    "id": "27",
+    "phrase": "I suggest we set up a conference call to resolve this.",
+  },
+  {
+    "frequency": 0.17,
+    "id": "17",
+    "phrase": "I apologize for any confusion caused.",
+  },
+  {
+    "frequency": 0.16,
+    "id": "16",
+    "phrase": "Please see below for the requested information.",
+  },
+  {
+    "frequency": 0.15,
+    "id": "15",
+    "phrase": "I understand your concern and will address it promptly.",
+  },
+  {
+    "frequency": -1,
+    "id": "empty",
+    "phrase": "",
+  },
+  {
+    "frequency": 0.14,
+    "id": "14",
+    "phrase": "I'll take care of it and provide an update soon.",
+  },
+  {
+    "frequency": 0.13,
+    "id": "13",
+    "phrase": "I'm cc'ing [name] for their information.",
+  },
+  {
+    "frequency": 0.12,
+    "id": "12",
+    "phrase": "I'm out of the office until [date], and [colleague] will assist you.",
+  },
+  {
+    "frequency": 0.11,
+    "id": "11",
+    "phrase": "Your feedback is greatly appreciated.",
+  },
+  {
+    "frequency": 0.1,
+    "id": "10",
+    "phrase": "Can we arrange a phone call to discuss in detail?",
+  },
+  {
+    "frequency": 0.09,
+    "id": "9",
+    "phrase": "I'm copying [name] for their input on this matter.",
+  },
+  {
+    "frequency": 0.08,
+    "id": "8",
+    "phrase": "I'll look into it and get back to you shortly.",
+  },
+  {
+    "frequency": 0.07,
+    "id": "7",
+    "phrase": "Please let me know if you need any further assistance.",
+  },
+  {
+    "frequency": 0.06,
+    "id": "6",
+    "phrase": "Let's schedule a meeting to discuss further.",
+  },
+  {
+    "frequency": 0.05,
+    "id": "5",
+    "phrase": "I appreciate your prompt reply.",
+  },
+  {
+    "frequency": 0.04,
+    "id": "4",
+    "phrase": "I apologize for the delay in my response.",
+  },
+  {
+    "frequency": 0.03,
+    "id": "3",
+    "phrase": "Could you clarify your question?",
+  },
+]
+`;
+
+exports[`unit tests for deal > return the correct values 4`] = `
+[
+  {
+    "frequency": 1,
+  },
+  {
+    "frequency": 1,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": 0.5,
+  },
+  {
+    "frequency": -1,
+    "id": "empty",
+    "phrase": "",
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+  {
+    "frequency": 0,
+  },
+]
+`;

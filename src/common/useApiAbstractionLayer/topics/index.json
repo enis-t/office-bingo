@@ -1,0 +1,14 @@
+[
+  {
+    "name": "email",
+    "title": "Email"
+  },
+  {
+    "name": "projectManagement",
+    "title": "Project Management"
+  },
+  {
+    "name": "customerService",
+    "title": "Customer Service"
+  }
+]

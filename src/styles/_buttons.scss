@@ -1,0 +1,15 @@
+@use './utils' as *;
+
+button {
+
+  margin: 0.4rem;
+
+  padding: 1.6rem;
+
+  background-color: get-color(secondary);
+  border-radius: $border-radius-small;
+
+  cursor: pointer;
+
+  @include overshoot-scale;
+}

@@ -1,0 +1,29 @@
+@use 'sass:map';
+@use './variables' as *;
+
+@mixin desktop {
+  @media (min-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+
+@function get-color($name) {
+  @return map.get( $colors, $name);
+}
+
+@mixin overshoot-scale {
+  transform: scale(1);
+
+  transition: transform $animation-overshoot-out $animation-short;
+
+  &:hover {
+    transform: scale(1.1);
+
+    transition: transform $animation-overshoot $animation-short;
+  }
+}
+
+@mixin overlay {
+  background: linear-gradient(180deg, rgba(14, 14, 16, 30%) 0%, rgba(14, 14, 16, 40%) 100%);
+  backdrop-filter: blur(1em);
+}
