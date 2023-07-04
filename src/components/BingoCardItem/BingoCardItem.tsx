@@ -17,7 +17,7 @@ const BingoCardItem = ( { item: { checked, id, phrase }, index } : props ) => {
   const isJolly = 'empty' === id
   const { toggle, winningSequences } = useContext( GameContext )
   const _toggle = () => {
-    toggle( id, checked )
+    toggle( id )
   }
 
   const computedClassNames = Object.entries( winningSequencesPattern ).reduce( ( final, [ key, value ] ) => ( {

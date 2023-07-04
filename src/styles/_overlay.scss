@@ -29,6 +29,8 @@
     letter-spacing: 2rem;
     
     transform: translate(0) rotateZ(-2400deg) scale(0);
+
+    pointer-events: none;
   }
   
   &.bingo {

@@ -8,7 +8,7 @@ type props = {
 }
 
 const Overlay = ( { setTopic }: props ) => {
-  const { bingo, reset } = useContext( GameContext )
+  const { bingo, reset, continuePlaying } = useContext( GameContext )
 
   const restart = () => {
     reset()
@@ -23,6 +23,7 @@ const Overlay = ( { setTopic }: props ) => {
       <div>
         <h1>Bingo!</h1>
         <button onClick={ restart }>Play again?</button>
+        <button onClick={ continuePlaying }>Continue playing</button>
       </div>
     </div>
   )

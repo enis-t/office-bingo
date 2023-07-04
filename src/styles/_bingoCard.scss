@@ -10,51 +10,80 @@
   height: 100%;
   padding: 0.2rem;
 
+  font-size: 2.2rem;
+  
   text-align: center;
-
+  
   background-color: get-color(tertiary-lighter);
   border: solid .2rem get-color(background);
+
+  cursor: pointer;
   opacity: 1;
-
+  
   transition: $animation-long ease-in-out;
-
+  
+  @include desktop {
+    font-size: 1.6rem;
+  }
+  
   &::after {
     position: absolute;
     top: 50%;
     left: 50%;
-
+    
     color: get-color(background);
-
-    font-size: 8rem;
-
+    
+    font-size: 12rem;
+    
     transform: translate(-50%, -50%);
     opacity: 0;
 
     transition: $animation-long ease-in-out;
-
+    
     content: 'x';
+    pointer-events: none;
   }
 
-  &:not(.isJolly) {
-    cursor: pointer;
+  &.isJolly {
+    font-size: 6.2rem;
 
-    &.checked::after {
-      opacity: .7;
+    cursor: default;
+    @include desktop {
+      font-size: 3.8rem;
+    }
+  }
+  
+  &.checked {
+    opacity: 0.7;
+    
+    &::after {
+      opacity: 1;
+    }
+
+    &.isJolly {
+      opacity: 1;
+    
+      &::after {
+        opacity: 0;
+      }
     }
   }
   
   &.winning {
-    animation: winner $animation-long ease-in-out infinite forwards;
-  }
-  
-  &:not(.isJolly).winning::after {
-    opacity: 0;
+    animation: none;
   }
 }
 
-.bingo .bingoCardItem:not(.winning) {
-  opacity: .2;
-  
+
+.bingo .bingoCardItem {
+
+  &.winning {
+    animation: winner $animation-long ease-in-out infinite forwards;
+  }
+
+  &:not(.winning) {
+    opacity: .2;
+  }
 }
 
 @keyframes winner {

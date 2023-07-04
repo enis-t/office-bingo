@@ -24,7 +24,7 @@ const shuffle = ( items: bingoItem[] ) => {
   finalItems.splice( finalItems.length / 2, 0, {
     frequency: -1,
     id: 'empty',
-    phrase: '',
+    phrase: 'Bingo! 😃',
   } )
 
   return finalItems

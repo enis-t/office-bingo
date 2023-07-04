@@ -15,9 +15,10 @@ type props = {
 type context = {
   bingo: boolean,
   cards: checkableBingoItem[]
+  continuePlaying: () => void
   deal: ( items: bingoItem[] ) => void
   reset: () => void
-  toggle: ( id: string, checked: boolean ) => void
+  toggle: ( id: string ) => void
   winningSequences: winningSequenceKey []
 }
 
@@ -34,6 +35,10 @@ export const GameContextProvider = ( { children }: props ): JSX.Element => {
     setWinningSequences( [] )
   }
 
+  const continuePlaying = () => {
+    setBingo( false )
+  }
+
   const deal = useCallback( ( items: bingoItem[] ) => {
     setCards( shuffle( items ).map( ( item ) => ( {
       ...item,
@@ -44,18 +49,25 @@ export const GameContextProvider = ( { children }: props ): JSX.Element => {
   const { run } = useApiAbstractionLayer( 'topics', 'post' )
   const { run: runDelete } = useApiAbstractionLayer( 'topics', 'del' )
 
-  const toggle = ( id: string, checked: boolean ) => {
+  const toggle = ( id: string ) => {
     if( 'empty' === id ){
       // is jolly item
       return
     }
+
+    const cardIndex = cards.findIndex( ( { id: arrayId } ) => arrayId === id )
+    const wasChecked = cards[cardIndex].checked
+
+    // if the card was checked, we remove the sequences including it from the winning sequences
+    setWinningSequences( ( old ) => old
+      .filter( ( sequence ) => !wasChecked || !winningSequencesPattern[sequence].includes( cardIndex ) ) )
 
     setCards( ( old ) => old.map( ( item ) => item.id === id ? {
       ...item,
       checked: !item.checked,
     } : item ) )
 
-    const runFunction = checked ? runDelete : run
+    const runFunction = wasChecked ? runDelete : run
 
     runFunction( {
       id,
@@ -71,7 +83,7 @@ export const GameContextProvider = ( { children }: props ): JSX.Element => {
 
     const checkedCards = cards.map( ( { checked } ) => checked )
 
-    // checks if the partial card sequence matches a winning sequence
+    // hellper function that checks if the partial card sequence matches a winning sequence
     const checkWinningSequence = ( sequence: Array<number> ) => checkedCards
       .filter( ( _, i ) => sequence.includes( i ) )
       .every( ( item ) => item )
@@ -81,6 +93,7 @@ export const GameContextProvider = ( { children }: props ): JSX.Element => {
     // TODO: make it dynamically adapt to different board sizes
     const winningCombinations: Partial<winningSequenceType> = Object
       .entries( winningSequencesPattern )
+      .filter( ( [ key ] ) => !winningSequences.includes( key as unknown as winningSequenceKey ) )
       .reduce( ( final, [ key, value ] ) => ( {
         ...final,
         [key]: checkWinningSequence( value ),
@@ -90,20 +103,22 @@ export const GameContextProvider = ( { children }: props ): JSX.Element => {
     if( Object.values( winningCombinations ).includes( true ) ){
       setBingo( true )
       Object.entries( winningCombinations ).forEach( ( [ key, value ] ) => {
-        if( value ){
+        if( value && !winningSequences.includes( key as unknown as winningSequenceKey ) ){
           setWinningSequences( ( old ) => [
-            ...old as unknown as winningSequenceKey[],
+            ...old,
             key as unknown as winningSequenceKey,
           ] )
         }
       } )
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ cards ] )
 
   return (
     <GameContext.Provider value={ {
       bingo,
       cards,
+      continuePlaying,
       deal,
       reset,
       toggle,
